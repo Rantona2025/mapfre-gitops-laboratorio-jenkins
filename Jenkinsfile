@@ -11,11 +11,11 @@ pipeline {
 	stage('Ejemplo shell script') {
             agent { label 'docker-agent' }
             steps {
-                sh 'echo """
+                sh  """
 			 hostname
 			 ls -la
 			 pwd
-			 """
+		 """
             }
         }
     }
