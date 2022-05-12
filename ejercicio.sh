@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/usr/bin/bash
 #set -x
 
 read -p "Escribe tu nombre: " NOMBRE
