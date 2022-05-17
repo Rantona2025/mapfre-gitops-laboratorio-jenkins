@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 OUTPUT=$(echo "Pedro"|bash ejercicio.sh pruebas)
 
