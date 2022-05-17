@@ -18,5 +18,13 @@ pipeline {
 		 """
             }
         }
+	stage ("Test") {
+            when {
+                branch "PR-*"
+            }
+            steps {
+                sh "bash test.sh"
+            }
+        }
     }
 }
